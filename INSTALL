@@ -1,0 +1,20 @@
+Gizmo Daemon -- (c) 2007-2009 Tim Burrell
+=----------= -- [tim [dot] burrell [at] gmail [dot] com]
+
+http://gizmod.sourceforge.net
+
+INSTALL
+=-----=
+
+For detailed installation instructions please see the Gizmo Daemon web 
+site.
+
+The basics are as follows:
+
+tar jxvf gizmod-X.x.tar.bz2
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DSYSCONF_INSTALL_DIR=/etc ../gizmod-X.x
+make
+sudo make install
+
